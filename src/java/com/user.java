@@ -4,44 +4,32 @@ public class user {
     
     private int id;
 
-    private String eml;
+    private String email;
 
-    private String pass;
+    private String password;
 
     /**
      * Get the value of pass
      *
      * @return the value of pass
      */
-    public String getPass() {
-        return pass;
+    public String getPassword() {
+        return password;
     }
 
-    /**
-     * Set the value of pass
-     *
-     * @param pass new value of pass
-     */
-    public void setPass(String pass) {
-        this.pass = pass;
+   
+    public void setPassword(String password) {
+        this.password = password;
     }
 
-    /**
-     * Get the value of email
-     *
-     * @return the value of email
-     */
-    public String getEml() {
-        return eml;
+   
+    public String getEmail() {
+        return email;
     }
 
-    /**
-     * Set the value of email
-     *
-     * @param email new value of email
-     */
-    public void setEml(String eml) {
-        this.eml = eml;
+    
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     /**

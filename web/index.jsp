@@ -17,10 +17,10 @@
         <table>
          
                 <tr>
-                    <td>Email</td><td><input type="text" name="eml"></td>
+                    <td>Email</td><td><input type="text" name="email"></td>
                 </tr>
                 <tr>
-                    <td>Password</td><td><input type="password" name="pass"></td>
+                    <td>Password</td><td><input type="password" name="password"></td>
                 </tr>
                 <tr><td><input type="submit" value="submit"></td></tr>
            
